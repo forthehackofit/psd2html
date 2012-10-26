@@ -17,11 +17,16 @@
     		font: 12px 'Helvetica Neue', Arial, sans-serif;
     		line-height: 18px;
     		color: #414141;
+    		-webkit-font-smoothing: antialiased;
     	}
     	h1, h2 {
     		font: 16px/18px 'BebasRegular', Arial, sans-serif;
     		letter-spacing: 0;
     		color: #e8663c;
+    	}
+    	ul {
+    		list-style: none;
+    		margin-left: 0;
     	}
     	.span12 {
     		width: 940px;
@@ -69,6 +74,7 @@
     	.main {
     		padding: 10px;
     		background-color: #fff;
+    		margin-bottom: 50px;
     	}
     	.row {
     		margin-left: 0;
@@ -170,6 +176,56 @@
 		.showbox span {
 			font-size: 11px;
 			color: #e8663c;
+		}
+		/* footer */
+		footer {
+			background-color: rgba(232, 102, 60, 0.5); /* #e8663c at 50% opacity */
+		}
+		#footer {
+			padding: 40px;
+			background-color: rgba(232, 102, 60, 1);
+			border-left: 10px solid #fff;
+			border-right: 10px solid #fff;
+			color: #fff;
+			max-width: 860px;
+		}
+		#footer h2 {
+			color: #fff;
+		}
+		.footercols > div {
+			max-width: 265px;
+			margin-right: 20px;
+		}
+		.footercols h2 {
+			margin-bottom: 26px;
+			font-size: 18px;
+		}
+		.twithilight {
+			color: #f3b29d;
+		}
+		.footercols p {
+			padding-right: 8px;
+			font-size: 11px;
+			font-weight: 800;
+		}
+		.social-icons {
+			background: url('img/social-icons.png') no-repeat 0 0;
+			width: 30px;
+			height: 31px;
+			display: inline-block;
+			margin-right: 4px;
+		}
+		.social-twitter {
+			background-position: -35px 0;
+		}
+		.social-mail {
+			background-position: -70px 0;
+		}
+		.social-rss {
+			background-position: -105px 0;
+		}
+		.social-vimeo {
+			background-position: -140px 0;
 		}
     </style>
   </head>
@@ -324,5 +380,66 @@
    		
    	</div><!-- / end main container -->	
    <!-- / end main content -->
+   
+   <!-- start footer -->
+   <footer>
+   		<div class="container" id="footer">
+   			<div class="row noleft footercols">
+   				<div class="span4 noleft">
+   					<h2>About Jetro</h2>
+   					<p>
+   						Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando. 
+					</p>
+					<p>
+						Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.
+   					</p>
+   				</div>
+   				
+   				<div class="span4 noleft">
+   					<h2>Twitter Widget</h2>
+   					<ul class="twitterfeed">
+   						<li>
+   							<p>
+   								<span class="twithilight">@pixelmater</span> What an awesome design with great functionality :)<br />
+   								<span class="postime twithilight">about 1 hour ago</span>
+   							</p>
+   						</li>
+   						<li>
+   							<p>
+   								<span class="twithilight">@designdude</span> What an awesome design with great functionality :)</br >
+   								<span class="postime twithilight">about 2 hour ago</span>
+   							</p>
+   						</li>
+   						<li>
+   							<p>
+   								Follow <span class="twithilight">@bestpsdfreebies</span>
+   							</p>
+   						</li>
+   					</ul>
+   				</div>
+   				
+   				<div class="span4 noleft">
+   					<h2>Contact Us</h2>
+   					<p>
+   						Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. 
+					</p>
+					<p>
+					<span>information@jetro.com</span><br />
+					1.222.333.4444
+   					</p>
+   					<p>
+   						<!-- TODO replace with font awesome icons at some point -->
+   						<i class="social-icons social-facebook"></i>
+   						<i class="social-icons social-twitter"></i>
+   						<i class="social-icons social-mail"></i>
+   						<i class="social-icons social-rss"></i>
+   						<i class="social-icons social-vimeo"></i>
+   					</p>
+   				</div>
+   				
+   			</div>
+   		</div>
+   		
+   </footer>
   </body>
 </html>  
