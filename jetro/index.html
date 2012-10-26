@@ -23,8 +23,23 @@
     		letter-spacing: 0;
     		color: #e8663c;
     	}
+    	.span12 {
+    		width: 940px;
+    	}
+    	.muted {
+    		color: #b9b9b9;
+    	}
+    	@media (min-width: 940px) {
+		  .nav-collapse.collapse {
+		    height: auto !important;
+		    overflow: visible !important;
+		  }
+		}
     	.floatRight {
     		float: right !important;
+    	}
+    	.noleft {
+    		margin-left: 0;
     	}
     	.navbar {
     		margin-bottom: 12px;
@@ -106,6 +121,7 @@
 		.infoblock {
 			max-width: 300px;
 			margin-left: 0;
+			margin-bottom: 35px;
 		}
 		.infoblock h2 {
 			display: inline-block;
@@ -117,6 +133,7 @@
 		.infoblock p {
 			margin-top: 26px;
 			margin-bottom: 13px;
+			max-width: 275px;
 		}
 		.infoblock .button {
 			font: 12px 'BebasRegular', Arial, sans-serif;
@@ -125,6 +142,34 @@
 			background-color: #e8663c;
 			display: inline-block;
 			padding: 6px 12px;
+		}
+		.catheader {
+			background: url('img/line.png') repeat-x;
+			margin-bottom: 26px;
+		}
+		.catheader h2 {
+			margin: 0;
+			display: inline;
+			background-color: #fff;
+			padding: 2px 20px 2px 0px;
+		}
+		.showcase div {
+			max-width: 220px;
+			margin-right: 20px;
+		}
+		.showcase div:last-child {
+			margin-right: 0;
+		}
+		.showbox {
+			padding: 14px;
+			border-left: 1px solid #dbdbdb;
+			border-right: 1px solid #dbdbdb;
+			border-bottom: 1px solid #dbdbdb;
+			font-family: 'BebasRegular', Arial, sans-serif;
+		}
+		.showbox span {
+			font-size: 11px;
+			color: #e8663c;
 		}
     </style>
   </head>
@@ -213,27 +258,67 @@
    				<i class="icons icon-checkbox img"></i>
    				<div class="bd">
    					<h2 class="bd">Offer top notch quality work and services</h2>
-   					<p>
+   				</div>	
+   				<p>
    					Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, 
    					pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
    				</p>
    				<span class="button">
    					More
    				</span>
-   				</div>	
    			</div>
    			<div class="span4 infoblock media">
    				<i class="icons icon-user img"></i>
    				<div class="bd">
    					<h2 class="bd">Follow me on Twitter Facebook & Pinterest</h2>
-   					<p>
+   				</div>	
+   				<p>
    					Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, 
    					pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
    				</p>
    				<span class="button">
    					More
    				</span>
-   				</div>	
+   			</div>
+   		</div>
+   		
+   		<div class="row">
+   			<div class="span12 noleft catheader">
+   				<h2>Recent Works</h2>
+   			</div>
+   		</div>
+   		
+   		<div class="row noleft showcase">
+   			<div class="span3 noleft">
+   				<img src="img/work/w_1.jpg" alt="project1" />
+   				<div class="showbox">
+   					<h2 class="muted">Character Design</h2>
+   					<span>June 15, 2012</span>
+   				</div>
+   			</div>
+   			
+   			<div class="span3 noleft">
+   				<img src="img/work/w_2.jpg" alt="project1" />
+   				<div class="showbox">
+   					<h2 class="muted">Brochure Design</h2>
+   					<span>June 15, 2012</span>
+   				</div>
+   			</div>
+   			
+   			<div class="span3 noleft">
+   				<img src="img/work/w_3.jpg" alt="project1" />
+   				<div class="showbox">
+   					<h2 class="muted">Social Media Buttons</h2>
+   					<span>June 15, 2012</span>
+   				</div>
+   			</div>
+   			
+   			<div class="span3 noleft">
+   				<img src="img/work/w_4.jpg" alt="project1" />
+   				<div class="showbox">
+   					<h2 class="muted">10 Amazing Websites</h2>
+   					<span>June 15, 2012</span>
+   				</div>
    			</div>
    		</div>
    		
