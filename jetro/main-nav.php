@@ -1,4 +1,5 @@
 <!-- header navigation -->
+	<div class="container">
   	<div class="navbar">
       <div class="navbar-inner">
         <div class="container">
@@ -25,4 +26,5 @@
       </div>  
    </div> 
    </div>  
+   </div>
    <!-- end header navigation -->
