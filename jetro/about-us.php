@@ -3,7 +3,7 @@
 	include_once 'main-nav.php';
 ?>
 <header>
-<div class="container" id="header" >
+<div class="container main" id="header" >
    	<div class="row noleft">
 			<h1 class="page-header">About Us</h1>
 	</div>		
@@ -13,7 +13,6 @@
    <div class="container main">
    	
 		<!-- put your content here -->
-		
 		
 		<div class="row">
 			<div class="span9">	       
