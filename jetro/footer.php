@@ -1,7 +1,7 @@
  
    <!-- start footer -->
    <footer>
-   		<div class="container" id="footer">
+   		<div class="container footer">
    			<div class="row noleft footercols">
    				<div class="span4 noleft">
    					<h2>About Jetro</h2>
@@ -59,5 +59,7 @@
    		</div>
    		
    </footer>
+   <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
   </body>
 </html>  

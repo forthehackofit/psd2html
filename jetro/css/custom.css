@@ -3,9 +3,9 @@
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
 	box-sizing: border-box;
-}	
+}
 body {
-	/*background: url('../img/header-bg.png') repeat-x;*/
+	background: url('../img/header-bg.png') repeat-x;
 	font: 12px 'Helvetica Neue', Arial, sans-serif;
 	line-height: 18px;
 	color: #414141;
@@ -31,6 +31,9 @@ ul {
     height: auto !important;
     overflow: visible !important;
   }
+}
+.noleft {
+	margin-left: 0;
 }
 .floatRight {
 	float: right !important;
@@ -76,29 +79,44 @@ ul {
 .page-header {
 	font-size: 21px;
 	color: #fff;
-	background-color: #e8603c;
 	line-height: 21px;
 	letter-spacing: 0;
 	padding: 20px 0;
 	margin: 0;
 	border-bottom: none;
 }
+.thumbnail {
+	display: block;
+	padding: 0px;
+	line-height: 26px;
+	border: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
 /* slideshow thumbs */
 .thumbs {
-	margin-left: 0;
+	/*margin-left: 0;
 	list-style: none;
 	height: 120px;
-	margin-bottom: 40px;
+	margin-bottom: 40px;*/
 }
-.thumbs li {
-	display: inline;
+.thumbs > div {
+	/*display: inline;
 	float: left;
 	width: 140px;
-	height: 120px;
-	margin-right: 20px;
+	height: 120px;*/
+	margin-bottom: 26px;
 }
-.thumbs li:last-child {
-	margin-right: 0;
+.thumbs div:first-child {
+	margin-left: 0;
 }
 .icons {
 	background: url('../img/icons.png') no-repeat;
@@ -155,7 +173,7 @@ ul {
 }
 .catheader {
 	background: url('../img/h-bg.png');
-	margin-bottom: 26px;
+	margin: 0 0 26px 20px;
 }
 .catheader h2 {
 	margin: 0;
@@ -185,19 +203,25 @@ ul {
 header, footer {
 	background-color: rgba(232, 102, 60, 0.5); /* #e8663c at 50% opacity */
 }
-#header, #footer {
+.header, .footer {
 	background-color: rgba(232, 102, 60, 1);
 	border-left: 10px solid #fff;
 	border-right: 10px solid #fff;
 	color: #fff;
 }
-#header {
+.header {
 	padding: 0px 40px;
+	margin-bottom: 30px;
 }
-#footer {
+.full-header {
+	background-color: #fff;
+	padding: 0px 10px;
+	border: none;
+}
+.footer {
 	padding: 40px;
 }
-#footer h2 {
+.footer h2 {
 	color: #fff;
 }
 .footercols > div {
