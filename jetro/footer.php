@@ -61,5 +61,29 @@
    </footer>
    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
+   <script src="js/flexslider/jquery.flexslider-min.js"></script>
+   <script>
+   		// Can also be used with $(document).ready()
+	$(window).load(function() {
+  // The slider being synced must be initialized first
+  $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 210,
+    itemMargin: 5,
+    asNavFor: '#slider'
+  });
+   
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
+});
+   </script>
   </body>
 </html>  

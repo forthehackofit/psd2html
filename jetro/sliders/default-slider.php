@@ -1,7 +1,7 @@
 <div class="container header full-header" >
    	<div id="myCarousel" class="carousel slide">
 		<div class="active item thumbnail">
-				<img src="img/slides/1.jpg" />
+				<img src="img/slides/pixar_dash.jpg" />
 		</div>
 		<div class="item thumbnail">
 			<img src="img/slides/1.jpg" />

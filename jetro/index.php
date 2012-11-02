@@ -1,7 +1,7 @@
 <?php
 	include_once 'header.php';
 	include_once 'main-nav.php';
-	include_once 'sliders/default-slider.php';
+	include_once 'sliders/home-flexslider.php';
 ?>
 <!-- main content -->
    <div class="container main">
