@@ -1,0 +1,15 @@
+.jetro-slider {
+	margin: 0 0 30px;
+	background: none;
+	border: none;
+	position: relative;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	zoom: 1;
+}
